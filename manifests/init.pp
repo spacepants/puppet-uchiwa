@@ -156,6 +156,7 @@ class uchiwa (
   $auth                 = $uchiwa::params::auth,
   $ssl                  = $uchiwa::params::ssl,
   $usersoptions         = $uchiwa::params::usersoptions,
+  $ldap                 = $uchiwa::params::ldap,
   $log_level            = $uchiwa::params::log_level
 ) inherits uchiwa::params {
 

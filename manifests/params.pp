@@ -52,4 +52,5 @@ class uchiwa::params {
   $auth            =     {}
   $ssl             =     {}
   $usersoptions    =     {}
+  $ldap            =     {}
 }
